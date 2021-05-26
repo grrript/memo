@@ -1,3 +1,14 @@
+# About this app
+
+This app demonstrates memo and useMemo.
+
+memo is used for components.
+Example: memo(AnyComponent)
+
+useMemo is used for functions that make expensive calls.
+Example:
+const expensiveCall = useMemo(()=>{}, [])
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
